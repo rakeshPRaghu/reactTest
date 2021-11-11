@@ -1,0 +1,80 @@
+body {
+  padding: 10px;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 50px;
+}
+
+.formBody {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+}
+
+.formField + .formField {
+  margin-left: 10px;
+}
+
+.textField {
+  padding: 5px;
+}
+
+.formValues {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+}
+.formValueFeilds {
+  width: 50%;
+  text-align: left;
+}
+.formValueFeilds + .formValueFeilds {
+  margin-left: 10px;
+}
+.formValueFeilds span {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.emailList {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.emailList span {
+  margin-bottom: 20px;
+}
+
+.buttonWrap{
+  margin-bottom: 50px;
+}
+
+.button{
+  padding: 10px;
+  border:1px solid #999;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.button.selected{
+  background: #000;
+  color:#fff;
+}
